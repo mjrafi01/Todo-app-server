@@ -39,7 +39,6 @@ Create a .env file in the root directory and add the following environment varia
 ```sh
 PORT=5000
 MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
 
 5. Usage
 Start the server using the following command:
