@@ -31,10 +31,12 @@ The Todo Server was developed to provide a backend solution for managing tasks i
    cd todo-server
    
 2. Install dependencies:
+   ```sh
    npm install
 
 3. Configuration
 Create a .env file in the root directory and add the following environment variables:
+```sh
 PORT=5000
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
